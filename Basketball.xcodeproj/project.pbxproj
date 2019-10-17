@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		57029F8E23582D6A00227455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57029F8D23582D6A00227455 /* AppDelegate.swift */; };
 		57029F9023582D6A00227455 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57029F8F23582D6A00227455 /* SceneDelegate.swift */; };
-		57029F9223582D6A00227455 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57029F9123582D6A00227455 /* ContentView.swift */; };
 		57029F9423582D7000227455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57029F9323582D7000227455 /* Assets.xcassets */; };
 		57029F9723582D7000227455 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57029F9623582D7000227455 /* Preview Assets.xcassets */; };
 		57029F9A23582D7000227455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57029F9823582D7000227455 /* LaunchScreen.storyboard */; };
+		57029FA223582E2C00227455 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57029FA123582E2B00227455 /* AppView.swift */; };
+		57029FA623582F8C00227455 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57029FA523582F8C00227455 /* ContentView.swift */; };
+		57C3FAEC2358377E008E64E0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C3FAEB2358377E008E64E0 /* Player.swift */; };
+		57C3FAEE2358395B008E64E0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C3FAED2358395B008E64E0 /* Data.swift */; };
+		57C3FAF023583B57008E64E0 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C3FAEF23583B57008E64E0 /* PlayerRow.swift */; };
+		57C3FAF223583E7D008E64E0 /* TeamDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C3FAF123583E7D008E64E0 /* TeamDetail.swift */; };
+		57C3FAF4235841E2008E64E0 /* TeamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C3FAF3235841E2008E64E0 /* TeamList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57029F8A23582D6A00227455 /* Basketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basketball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57029F8D23582D6A00227455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57029F8F23582D6A00227455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57029F9123582D6A00227455 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57029F9323582D7000227455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57029F9623582D7000227455 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57029F9923582D7000227455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57029F9B23582D7000227455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57029FA123582E2B00227455 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		57029FA523582F8C00227455 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57C3FAEB2358377E008E64E0 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		57C3FAED2358395B008E64E0 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		57C3FAEF23583B57008E64E0 /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		57C3FAF123583E7D008E64E0 /* TeamDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetail.swift; sourceTree = "<group>"; usesTabs = 0; };
+		57C3FAF3235841E2008E64E0 /* TeamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +70,13 @@
 			children = (
 				57029F8D23582D6A00227455 /* AppDelegate.swift */,
 				57029F8F23582D6A00227455 /* SceneDelegate.swift */,
-				57029F9123582D6A00227455 /* ContentView.swift */,
+				57029FA123582E2B00227455 /* AppView.swift */,
+				57C3FAF3235841E2008E64E0 /* TeamList.swift */,
+				57029FA523582F8C00227455 /* ContentView.swift */,
+				57C3FAF123583E7D008E64E0 /* TeamDetail.swift */,
+				57C3FAEF23583B57008E64E0 /* PlayerRow.swift */,
+				57C3FAEB2358377E008E64E0 /* Player.swift */,
+				57C3FAED2358395B008E64E0 /* Data.swift */,
 				57029F9323582D7000227455 /* Assets.xcassets */,
 				57029F9823582D7000227455 /* LaunchScreen.storyboard */,
 				57029F9B23582D7000227455 /* Info.plist */,
@@ -146,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C3FAF4235841E2008E64E0 /* TeamList.swift in Sources */,
+				57C3FAEE2358395B008E64E0 /* Data.swift in Sources */,
+				57029FA223582E2C00227455 /* AppView.swift in Sources */,
+				57029FA623582F8C00227455 /* ContentView.swift in Sources */,
+				57C3FAF223583E7D008E64E0 /* TeamDetail.swift in Sources */,
 				57029F8E23582D6A00227455 /* AppDelegate.swift in Sources */,
+				57C3FAEC2358377E008E64E0 /* Player.swift in Sources */,
 				57029F9023582D6A00227455 /* SceneDelegate.swift in Sources */,
-				57029F9223582D6A00227455 /* ContentView.swift in Sources */,
+				57C3FAF023583B57008E64E0 /* PlayerRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,3 +1,4 @@
+
 //
 //  ContentView.swift
 //  Basketball
@@ -10,7 +11,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+                   List(0..<players.count) { (index)  in
+                    NavigationLink(destination:TeamDetail(team:players[index])) {
+                           PlayerRow(player : players[index])
+                           
+                       }
+                       
+                   }
+                   .navigationBarTitle("All Teams")
+        }
     }
 }
 
