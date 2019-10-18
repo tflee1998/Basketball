@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B46D7F62359CA3300B74CCA /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B46D7F52359CA3200B74CCA /* About.swift */; };
 		57029F8E23582D6A00227455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57029F8D23582D6A00227455 /* AppDelegate.swift */; };
 		57029F9023582D6A00227455 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57029F8F23582D6A00227455 /* SceneDelegate.swift */; };
 		57029F9423582D7000227455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57029F9323582D7000227455 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B46D7F52359CA3200B74CCA /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		57029F8A23582D6A00227455 /* Basketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basketball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57029F8D23582D6A00227455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57029F8F23582D6A00227455 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				57029FA123582E2B00227455 /* AppView.swift */,
 				57C3FAF3235841E2008E64E0 /* TeamList.swift */,
 				57029FA523582F8C00227455 /* ContentView.swift */,
+				3B46D7F52359CA3200B74CCA /* About.swift */,
 				57C3FAF123583E7D008E64E0 /* TeamDetail.swift */,
 				57C3FAEF23583B57008E64E0 /* PlayerRow.swift */,
 				57C3FAEB2358377E008E64E0 /* Player.swift */,
@@ -169,6 +172,7 @@
 				57029FA223582E2C00227455 /* AppView.swift in Sources */,
 				57029FA623582F8C00227455 /* ContentView.swift in Sources */,
 				57C3FAF223583E7D008E64E0 /* TeamDetail.swift in Sources */,
+				3B46D7F62359CA3300B74CCA /* About.swift in Sources */,
 				57029F8E23582D6A00227455 /* AppDelegate.swift in Sources */,
 				57C3FAEC2358377E008E64E0 /* Player.swift in Sources */,
 				57029F9023582D6A00227455 /* SceneDelegate.swift in Sources */,
