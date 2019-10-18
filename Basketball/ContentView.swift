@@ -11,16 +11,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
-                   List(0..<players.count) { (index)  in
-                    NavigationLink(destination:TeamDetail(team:players[index])) {
-                           PlayerRow(player : players[index])
-                           
-                       }
-                       
-                   }
-                   .navigationBarTitle("All Teams")
+        TabView{
+            TeamList()
+                .tabItem{
+                    Image(systemName: "music.house.fill")
+                    Text("Teams")
+            }
+            
+            About()
+                .tabItem{
+                    Image(systemName: "info.circle.fill")
+                    Text("About")
+            }
+            
         }
+        
     }
 }
 

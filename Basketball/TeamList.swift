@@ -30,7 +30,7 @@ struct TeamList: View {
             }
         
         
-        }.background(Color.red)
+        }
     }
 }
 

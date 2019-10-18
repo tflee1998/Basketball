@@ -20,15 +20,15 @@ struct TeamDetail: View {
             VStack
                 {
                     
-                    Text(team.name).bold().padding()
-                    Text("HeadCoach").bold().padding()
+                    Text(team.name).bold()
+                    Text("HeadCoach").bold()
                     Image(team.image+"Coach").resizable()
                         .frame(width: 200 , height: 200)
                         .scaledToFit()
                         .cornerRadius(50)
                         
                     
-                    Text("Players").bold().padding()
+                    Text("Players").bold()
                     ScrollView(.horizontal) {
                         HStack(spacing: 20) {
                             
