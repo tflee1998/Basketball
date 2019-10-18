@@ -15,19 +15,20 @@ struct TeamDetail: View {
     {
         
         ZStack {
-            Color.blue
+            LinearGradient(gradient: Gradient(colors: [Color.blue,Color.yellow,Color.red]), startPoint: UnitPoint(x:0,y:0), endPoint: UnitPoint(x:1,y:1))
             
             VStack
                 {
                     
-                    Text(team.name).bold()
-                    Text("HeadCoach").bold()
+                    Text(team.name).bold().padding()
+                    Text("HeadCoach").bold().padding()
                     Image(team.image+"Coach").resizable()
                         .frame(width: 200 , height: 200)
                         .scaledToFit()
+                        .cornerRadius(50)
                         
                     
-                    Text("Players").bold()
+                    Text("Players").bold().padding()
                     ScrollView(.horizontal) {
                         HStack(spacing: 20) {
                             
@@ -36,7 +37,10 @@ struct TeamDetail: View {
                                     .resizable()
                                     .scaledToFill()
                                     .frame(width: 300,height:300)
-                                    .clipped()
+                                    .clipShape(Circle())
+                                    .overlay(Circle().stroke(Color.yellow ,lineWidth:4))
+                                    .shadow(radius: 40)
+                                
                             }
                         }
                         

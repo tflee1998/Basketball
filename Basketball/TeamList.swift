@@ -10,7 +10,27 @@ import SwiftUI
 
 struct TeamList: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+    
+       
+        List() {
+            background(Color.red)
+            ForEach(1..<6) { (index) in
+                HStack {
+                    ForEach(1..<3) { (index1) in
+                        Image("Team"+String(index)+String(index1))
+                        
+                            .resizable()
+                            .frame( width:200 ,height:200 )
+                            .scaledToFit()
+                            .cornerRadius(50)
+                            .shadow(radius:50)
+                           
+                    }
+                }
+            }
+        
+        
+        }.background(Color.red)
     }
 }
 
@@ -19,3 +39,4 @@ struct TeamList_Previews: PreviewProvider {
         TeamList()
     }
 }
+
