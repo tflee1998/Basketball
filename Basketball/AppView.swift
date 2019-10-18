@@ -17,7 +17,7 @@ struct AppView: View {
                     Text("Teams")
             }
             
-            ContentView()
+            About()
                 .tabItem{
                     Image(systemName: "info.circle.fill")
                     Text("About")
