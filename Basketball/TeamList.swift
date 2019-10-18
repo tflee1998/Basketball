@@ -12,7 +12,7 @@ struct TeamList: View {
     var body: some View {
     
        
-        List() {
+        List() {//list
             background(Color.red)
             ForEach(1..<6) { (index) in
                 HStack {
